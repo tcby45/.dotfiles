@@ -1,3 +1,5 @@
 [user]
 	name = Julian Anderson
 	email = techieboy45@gmail.com
+[push]
+	default = simple
