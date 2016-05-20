@@ -55,6 +55,7 @@ plugins=(git)
 
   export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
+export EDITOR="vim"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -82,12 +83,43 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias agui="sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade"
-alias agu="sudo apt-get update"
-alias agi="sudo apt-get install"
+alias aui="sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade"
+#alias agu="sudo apt-get update" # obsoleted by debian plugin
+#alias agi="sudo apt-get install" # obsoleted by debian plugin
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+## Antigen
+# Source antigen
 source ~/.antigen.zsh
+# Plugins
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle brew
+antigen bundle bundler
+antigen bundle catimg
+antigen bundle chucknorris
+antigen bundle command-not-found
+antigen bundle cloudapp
+antigen bundle common-aliases
+antigen bundle debian
+antigen bundle dircycle
+antigen bundle dirhistory
+antigen bundle docker
+antigen bundle encode64
+antigen bundle geeknote
+antigen bundle git-extras
+antigen bundle lol
+antigen bundle npm
+antigen bundle nyan
+antigen bundle pip
+antigen bundle pylint
+antigen bundle python
+antigen bundle redis-cli
+antigen bundle ruby
+antigen bundle rvm
+antigen bundle screen
+antigen bundle sprunge
 antigen bundle sudo
+antigen bundle vagrant
+antigen bundle wd
+
 export PATH="$PATH:$HOME/.linuxbrew/bin"
