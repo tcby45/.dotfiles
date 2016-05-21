@@ -1,0 +1,15 @@
+unmy_hdr *
+my_hdr X-Homepage: http://tcby45.xyz
+my_hdr X-PGP-Key: https://keybase.io/readyp1/key.asc
+
+set from="me@tcby45.xyz"
+set realname="Julian Anderson"
+
+set folder=~/Mail
+set mbox_type=mbox
+set spoolfile=~/mbox
+set move=yes
+set keep_flagged=yes
+set mbox=+read_inbox
+set postponed=+postponed
+set record="+Sent=`date +%Y-%m`"
