@@ -19,3 +19,6 @@
 [submodule "pathogen/syntastic"]
 	path = pathogen/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "pathogen/rust.vim"]
+	path = pathogen/rust.vim
+	url = git://github.com/rust-lang/rust.vim.git
