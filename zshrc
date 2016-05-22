@@ -123,5 +123,3 @@ antigen bundle vagrant
 antigen bundle wd
 
 export PATH="$PATH:$HOME/.linuxbrew/bin"
-# Apache Maven
-export PATH="$PATH:/home/ubuntu/.maven/bin"
