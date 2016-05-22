@@ -1,0 +1,3 @@
+[submodule "pathogen/vim-commentary"]
+	path = pathogen/vim-commentary
+	url = git://github.com/tpope/vim-commentary.git

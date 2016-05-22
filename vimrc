@@ -1,4 +1,4 @@
-execute pathogen#infect()
+execute pathogen#infect('~/.dotfiles/pathogen/{}')
 syntax on
 filetype plugin indent on
 
