@@ -11,9 +11,9 @@ chsh -s $(which zsh)
 ## Installation
 Grab the repo:
 ```sh
-git clone https://github.com/tcby45/dotfiles.git
+git clone https://github.com/tcby45/dotfiles.git ~/.dotfiles
 # or
-hub clone tcby45/dotfiles # if you use hub
+hub clone tcby45/dotfiles ~/.dotfiles # if you use hub
 ```
 Install [rcm](https://github.com/thoughtbot/rcm):
 ```
@@ -22,8 +22,15 @@ brew install rcm
 ```
 Install dotfiles:
 ```sh
-env RCRC=/path/to/dotfilesrepo/rcrc rcup
+env RCRC=~/.dotfiles/rcrc rcup
 ```
 After that, you can run `rcup` without having to set `RCRC` again.
 
-When this repo updates and you want to use the updated version, just run the "Install dotfiles" command again.
+When this repo updates and you want to use the updated version, just do the following:
+
+```sh
+cd ~/.dotfiles
+git pull
+cd ~
+env RCRC=~/.dotfiles/rcrc rcup # to update the symlinks
+```
