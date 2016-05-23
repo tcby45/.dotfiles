@@ -7,6 +7,10 @@ Managed with [thoughtbot's rcm](https://github.com/thoughtbot/rcm).
 ```sh
 chsh -s $(which zsh)
 ```
+Additionally, for [pathogen](https://github.com/tpope/vim-pathogen) to work, you need to do the following:
+```sh
+mkdir -p ~/.vim/autoload && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
 
 ## Installation
 Grab the repo:
