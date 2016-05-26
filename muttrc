@@ -1,6 +1,7 @@
 unmy_hdr *
 my_hdr X-Homepage: http://tcby45.xyz
 my_hdr X-PGP-Key: https://keybase.io/readyp1/key.asc
+my_hdr X-Clacks-Overhead: GNU Terry Pratchett
 
 set from="me@tcby45.xyz"
 set realname="Julian Anderson"
