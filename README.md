@@ -15,7 +15,7 @@ mkdir -p ~/.vim/autoload && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.
 ## Installation
 Grab the repo:
 ```sh
-git clone https://github.com/tcby45/dotfiles.git ~/.dotfiles
+git clone git@github.com:tcby45/dotfiles.git ~/.dotfiles # Make sure you have an SSH key added to your account!
 # or
 hub clone tcby45/dotfiles ~/.dotfiles # if you use hub
 ```
