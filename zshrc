@@ -91,12 +91,14 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 ## Antigen
 # Source antigen
 source ~/.antigen.zsh
+# Make sure oh-my-zsh works on most/all device
+antigen use oh-my-zsh
 # Plugins
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle brew
 antigen bundle bundler
 antigen bundle catimg
-antigen bundle chucknorris
+#antigen bundle chucknorris
 antigen bundle command-not-found
 antigen bundle cloudapp
 antigen bundle common-aliases
@@ -105,7 +107,7 @@ antigen bundle dircycle
 antigen bundle dirhistory
 antigen bundle docker
 antigen bundle encode64
-antigen bundle geeknote
+#antigen bundle geeknote
 antigen bundle git-extras
 antigen bundle lol
 antigen bundle npm
