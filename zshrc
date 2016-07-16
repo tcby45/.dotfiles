@@ -86,6 +86,7 @@ source $ZSH/oh-my-zsh.sh
 alias aui="sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade"
 #alias agu="sudo apt-get update" # obsoleted by debian plugin
 #alias agi="sudo apt-get install" # obsoleted by debian plugin
+alias kb="keybase"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 ## Antigen
@@ -124,5 +125,15 @@ antigen bundle sudo
 antigen bundle vagrant
 antigen bundle wd
 
+antigen theme half-life
+
 export PATH="$PATH:$HOME/.linuxbrew/bin"
 export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
+
+### Bashhub.com Installation
+if [ -f ~/.bashhub/bashhub.zsh ]; then
+    source ~/.bashhub/bashhub.zsh
+fi
+
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
