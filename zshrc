@@ -112,7 +112,7 @@ antigen bundle encode64
 antigen bundle git-extras
 antigen bundle lol
 antigen bundle npm
-antigen bundle nyan
+#antigen bundle nyan
 antigen bundle pip
 antigen bundle pylint
 antigen bundle python
