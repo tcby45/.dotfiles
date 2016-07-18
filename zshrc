@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/ubuntu/.oh-my-zsh
+export ZSH=/home/$(whoami)/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -87,6 +87,7 @@ alias aui="sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade"
 #alias agu="sudo apt-get update" # obsoleted by debian plugin
 #alias agi="sudo apt-get install" # obsoleted by debian plugin
 alias kb="keybase"
+alias gpg="gpg2"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 ## Antigen
