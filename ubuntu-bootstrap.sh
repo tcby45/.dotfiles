@@ -35,7 +35,7 @@ brew tap thoughtbot/formulae; brew install rcm
 
 ## Get repo dependencies
 mkdir -p ~/.vim/autoload && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-mkdir -p ~/.vim/colors && wget https://raw.githubusercontent.com/raphamorim/lucario/master/vim/colors/pathogen.vim -O ~/.vim/colors/lucario.vim
+mkdir -p ~/.vim/colors && wget https://raw.githubusercontent.com/raphamorim/lucario/master/vim/colors/lucario.vim -O ~/.vim/colors/lucario.vim
 
 ## Install this repo
 git clone git@github.com:tcby45/dotfiles.git
