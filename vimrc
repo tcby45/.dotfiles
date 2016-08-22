@@ -1,32 +1,51 @@
-execute pathogen#infect('~/.dotfiles/pathogen/{}')
-syntax on
-filetype plugin indent on
+" execute pathogen#infect('~/.dotfiles/pathogen/{}')
+set nocompatible              " be iMproved, required
+filetype off                  " required
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
 
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 1
+" Stuff from tpope
+Plugin 'tpope/vim-commentary'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-rhubarb'
 
-let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_sh_checkers = ['shellcheck']
-let g:syntastic_ruby_checkers = ['rubocop']
-let g:syntastic_yaml_checkers = ['yamllint']
+" Syntastic
+Plugin 'scrooloose/syntastic'
 
-let g:syntastic_error_symbol = '❌'
-let g:syntastic_style_error_symbol = '⁉️'
-let g:syntastic_warning_symbol = '⚠️'
-let g:syntastic_style_warning_symbol = '💩'
+" Lucario
+Plugin 'raphamorim/lucario'
 
-highlight link SyntasticErrorSign SignColumn
-highlight link SyntasticWarningSign SignColumn
-highlight link SyntasticStyleErrorSign SignColumn
-highlight link SyntasticStyleWarningSign SignColumn
+" For Pony
+Plugin 'dleonard0/pony-vim-syntax'
+
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 1
+
+" let g:syntastic_javascript_checkers = ['eslint']
+" let g:syntastic_python_checkers = ['flake8']
+" let g:syntastic_sh_checkers = ['shellcheck']
+" let g:syntastic_ruby_checkers = ['rubocop']
+" let g:syntastic_yaml_checkers = ['yamllint']
+
+" let g:syntastic_error_symbol = '❌'
+" let g:syntastic_style_error_symbol = '⁉️'
+" let g:syntastic_warning_symbol = '⚠️'
+" let g:syntastic_style_warning_symbol = '💩'
+
+" highlight link SyntasticErrorSign SignColumn
+" highlight link SyntasticWarningSign SignColumn
+" highlight link SyntasticStyleErrorSign SignColumn
+" highlight link SyntasticStyleWarningSign SignColumn
 
 syntax enable
 set number
-colorscheme lucario
+" colorscheme lucario
