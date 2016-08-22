@@ -55,4 +55,4 @@ filetype plugin indent on    " required
 
 syntax enable
 set number
-" colorscheme lucario
+colorscheme lucario
