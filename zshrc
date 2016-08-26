@@ -1,11 +1,11 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/$(whoami)/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git
+export ZSH=$HOME/.linuxbrew/opt/zplug/repos/robbyrussell/oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="half-life"
+#ZSH_THEME="half-life"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -137,8 +137,9 @@ zplug "junegunn/fzf-bin", \
 	from:gh-r
 zplug "b4b4r07/zsh-gomi", if:"which fzf"
 
-zplug "zsh-users/zsh-syntax-highlighting", as:plugin, nice:10 
+zplug "zsh-users/zsh-syntax-highlighting" 
 zplug "plugins/sudo",   from:oh-my-zsh
+zplug "plugins/rvm", from:oh-my-zsh
 zplug "themes/half-life", from:oh-my-zsh
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
