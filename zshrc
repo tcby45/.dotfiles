@@ -138,8 +138,10 @@ zplug "junegunn/fzf-bin", \
 zplug "b4b4r07/zsh-gomi", if:"which fzf"
 
 zplug "zsh-users/zsh-syntax-highlighting" 
-zplug "plugins/sudo",   from:oh-my-zsh
+zplug "plugins/sudo",from:oh-my-zsh
 zplug "plugins/rvm", from:oh-my-zsh
+zplug "plugins/debian", from:oh-my-zsh, if:"[[ -f /etc/lsb-release ]]"
+zplug "plugins/archlinux", from:oh-my-zsh, if:"[[ -f /etc/arch-release ]]"
 zplug "themes/half-life", from:oh-my-zsh
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
