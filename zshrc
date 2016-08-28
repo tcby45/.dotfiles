@@ -126,7 +126,36 @@ antigen bundle sudo
 antigen bundle vagrant
 antigen bundle wd
 
-antigen theme half-life
+# antigen theme half-life
+
+# Time to test zgen my dudes
+# load zgen
+source "${HOME}/.zgen/zgen.zsh"
+# plugin time
+if ! zgen saved; then
+	echo "Creating a zgen save"
+
+	zgen oh-my-zsh
+
+	# plugins
+	zgen oh-my-zsh plugins/git
+	zgen oh-my-zsh plugins/rvm
+	zgen oh-my-zsh plugins/sudo
+	if [[ -f /etc/lsb-release ]] then
+		zgen oh-my-zsh plugins/debian
+	fi
+	if [[ -f /etc/arch-release ]] then
+		zgen oh-my-zsh plugins/archlinux
+	fi
+	zgen load zsh-users/zsh-syntax-highlighting
+
+	# theme(s)
+	zgen oh-my-zsh themes/half-life
+
+	# save all to init script
+	zgen save
+fi
+
 ### Bashhub.com Installation
 if [ -f ~/.bashhub/bashhub.zsh ]; then
     source ~/.bashhub/bashhub.zsh
