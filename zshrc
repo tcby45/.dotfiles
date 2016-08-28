@@ -177,3 +177,6 @@ eval "$(thefuck --alias)"
 # Java home
 export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"
 export PATH="$JAVA_HOME/bin:$PATH"
+
+# Gets rid of pain-in-the-butt .zcompdumps
+rm -r .zcompdump*
