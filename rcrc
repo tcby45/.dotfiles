@@ -1,2 +1,2 @@
-EXCLUDES="README.md"
+EXCLUDES="README.md ubuntu-bootstrap.sh"
 DOTFILES_DIRS="$HOME/.dotfiles"
