@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.linuxbrew/opt/zplug/repos/robbyrussell/oh-my-zsh
+export ZSH=$HOME/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -90,75 +90,43 @@ alias kb="keybase"
 alias gpg="gpg2"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-# ## Antigen
-# # Source antigen
-# source ~/.antigen.zsh
-# # Make sure oh-my-zsh works on most/all device
-# antigen use oh-my-zsh
-# # Plugins
-# antigen bundle zsh-users/zsh-syntax-highlighting
-# antigen bundle brew
-# antigen bundle bundler
-# antigen bundle catimg
-# #antigen bundle chucknorris
-# antigen bundle command-not-found
-# antigen bundle cloudapp
-# antigen bundle common-aliases
-# antigen bundle debian
-# antigen bundle dircycle
-# antigen bundle dirhistory
-# antigen bundle docker
-# antigen bundle encode64
-# #antigen bundle geeknote
-# antigen bundle git-extras
-# #antigen bundle lol
-# antigen bundle npm
-# antigen bundle nyan
-# antigen bundle pip
-# antigen bundle pylint
-# antigen bundle python
-# antigen bundle redis-cli
-# antigen bundle ruby
-# antigen bundle rvm
-# antigen bundle screen
-# antigen bundle sprunge
-# antigen bundle sudo
-# antigen bundle vagrant
-# antigen bundle wd
+## Antigen
+# Source antigen
+source ~/.antigen.zsh
+# Make sure oh-my-zsh works on most/all device
+antigen use oh-my-zsh
+# Plugins
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle brew
+antigen bundle bundler
+antigen bundle catimg
+#antigen bundle chucknorris
+antigen bundle command-not-found
+antigen bundle cloudapp
+antigen bundle common-aliases
+antigen bundle debian
+antigen bundle dircycle
+antigen bundle dirhistory
+antigen bundle docker
+antigen bundle encode64
+#antigen bundle geeknote
+antigen bundle git-extras
+#antigen bundle lol
+antigen bundle npm
+antigen bundle nyan
+antigen bundle pip
+antigen bundle pylint
+antigen bundle python
+antigen bundle redis-cli
+antigen bundle ruby
+antigen bundle rvm
+antigen bundle screen
+antigen bundle sprunge
+antigen bundle sudo
+antigen bundle vagrant
+antigen bundle wd
 
-# Add b4b4r07/zplug support
-export ZPLUG_HOME="$HOME/.linuxbrew/opt/zplug"
-source $ZPLUG_HOME/init.zsh
-# antigen theme half-life
-# Install zsh-gomi with fzf
-zplug "junegunn/fzf-bin", \
-	as:command, \
-	rename-to:fzf, \
-	from:gh-r
-zplug "b4b4r07/zsh-gomi", if:"which fzf"
-
-zplug "zsh-users/zsh-syntax-highlighting" 
-zplug "plugins/rvm", from:oh-my-zsh
-zplug "plugins/debian", from:oh-my-zsh, if:"[[ -f /etc/lsb-release ]]"
-zplug "plugins/archlinux", from:oh-my-zsh, if:"[[ -f /etc/arch-release ]]"
-zplug "plugins/sudo", from:oh-my-zsh
-zplug "plugins/rvm", from:oh-my-zsh
-zplug "themes/half-life", from:oh-my-zsh
-# Install plugins if there are plugins that have not been installed
-if ! zplug check --verbose; then
-	printf "Install? [y/N]: "
-	if read -q; then
-		echo; zplug install
-	fi
-fi
-
-# Then, source plugins and add commands to $PATH
-zplug load --verbose
-
-## Linuxbrew
-export PATH="$PATH:$HOME/.linuxbrew/bin"
-export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
-
+antigen theme half-life
 ### Bashhub.com Installation
 if [ -f ~/.bashhub/bashhub.zsh ]; then
     source ~/.bashhub/bashhub.zsh
@@ -179,4 +147,4 @@ export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"
 export PATH="$JAVA_HOME/bin:$PATH"
 
 # Gets rid of pain-in-the-butt .zcompdumps
-rm -r .zcompdump*
+#rm -r .zcompdump*
