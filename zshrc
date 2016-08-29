@@ -156,6 +156,8 @@ if ! zgen saved; then
 	zgen save
 fi
 
+# Add linuxbrew back to the PATH
+export PATH=$PATH:$HOME/.linuxbrew/bin
 ### Bashhub.com Installation
 if [ -f ~/.bashhub/bashhub.zsh ]; then
     source ~/.bashhub/bashhub.zsh
