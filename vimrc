@@ -1,4 +1,3 @@
-" execute pathogen#infect('~/.dotfiles/pathogen/{}')
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -23,6 +22,7 @@ Plugin 'dleonard0/pony-vim-syntax'
 
 " Others
 Plugin 'rust-lang/rust.vim'
+Plugin 'vimwiki/vimwiki'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
