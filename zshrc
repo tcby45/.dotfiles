@@ -91,45 +91,6 @@ alias gpg="gpg2"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-# ## Antigen
-# # Source antigen
-# source ~/.antigen.zsh
-# # Make sure oh-my-zsh works on most/all device
-# antigen use oh-my-zsh
-# # Plugins
-# antigen bundle zsh-users/zsh-syntax-highlighting
-# antigen bundle brew
-# antigen bundle bundler
-# antigen bundle catimg
-# #antigen bundle chucknorris
-# antigen bundle command-not-found
-# antigen bundle cloudapp
-# antigen bundle common-aliases
-# antigen bundle debian
-# antigen bundle dircycle
-# antigen bundle dirhistory
-# antigen bundle docker
-# antigen bundle encode64
-# #antigen bundle geeknote
-# antigen bundle git-extras
-# #antigen bundle lol
-# antigen bundle npm
-# antigen bundle nyan
-# antigen bundle pip
-# antigen bundle pylint
-# antigen bundle python
-# antigen bundle redis-cli
-# antigen bundle ruby
-# antigen bundle rvm
-# antigen bundle screen
-# antigen bundle sprunge
-# antigen bundle sudo
-# antigen bundle vagrant
-# antigen bundle wd
-
-# antigen theme half-life
-
-# Time to test zgen my dudes
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
 # plugin time
