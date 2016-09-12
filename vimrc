@@ -53,6 +53,10 @@ highlight link SyntasticWarningSign SignColumn
 highlight link SyntasticStyleErrorSign SignColumn
 highlight link SyntasticStyleWarningSign SignColumn
 
+" Keyboard mappings
+inoremap jk <ESC>
+
+filetype plugin indent on
 syntax enable
 set number
 colorscheme lucario
