@@ -103,6 +103,7 @@ if ! zgen saved; then
 	zgen oh-my-zsh plugins/git
 	zgen oh-my-zsh plugins/rvm
 	zgen oh-my-zsh plugins/sudo
+	zgen oh-my-zsh plugins/brew
 	if [[ -f /etc/lsb-release ]] then
 		zgen oh-my-zsh plugins/debian
 	fi
