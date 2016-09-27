@@ -1,0 +1,13 @@
+tap 'homebrew/core'
+tap 'homebrew/bundle'
+tap 'homebrew/dupes'
+tap 'yudai/gotty'
+tap 'caskroom/cask'
+tap 'thoughtbot/formulae'
+brew 'go'
+brew 'noti'
+brew 'patchelf', args: ['with-static']
+brew 'xz'
+brew 'thoughtbot/formulae/gitsh'
+brew 'thoughtbot/formulae/rcm'
+brew 'yudai/gotty/gotty'

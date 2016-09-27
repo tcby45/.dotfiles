@@ -1,2 +1,2 @@
-EXCLUDES="README.md ubuntu-bootstrap.sh"
+EXCLUDES="rcrc README.md ubuntu-bootstrap.sh Brewfile"
 DOTFILES_DIRS="$HOME/.dotfiles"
