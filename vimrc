@@ -14,11 +14,13 @@ Plugin 'tpope/vim-rhubarb'
 " Syntastic
 Plugin 'scrooloose/syntastic'
 
-" Lucario
+" Themes
 Plugin 'raphamorim/lucario'
 
-" For Pony
-Plugin 'dleonard0/pony-vim-syntax'
+
+" Airline and associated plugins
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 
 " Others
 Plugin 'rust-lang/rust.vim'
