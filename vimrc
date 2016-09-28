@@ -23,6 +23,7 @@ Plugin 'dleonard0/pony-vim-syntax'
 " Others
 Plugin 'rust-lang/rust.vim'
 Plugin 'vimwiki/vimwiki'
+Plugin 'vim-scripts/Conque-Shell'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

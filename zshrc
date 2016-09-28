@@ -119,8 +119,10 @@ if ! zgen saved; then
 	zgen save
 fi
 
-# Add linuxbrew back to the PATH
+# Add linuxbrew back to the PATH, and have man and info paths
 export PATH=$PATH:$HOME/.linuxbrew/bin
+export MANPATH="/home/ubuntu/.linuxbrew/share/man:$MANPATH"
+export INFOPATH="/home/ubuntu/.linuxbrew/share/info:$INFOPATH"
 ### Bashhub.com Installation
 if [ -f ~/.bashhub/bashhub.zsh ]; then
     source ~/.bashhub/bashhub.zsh
