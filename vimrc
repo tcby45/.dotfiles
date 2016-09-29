@@ -1,6 +1,8 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+set t_Co=256
+set laststatus=2 " Make the airline show up everywhere
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -15,8 +17,9 @@ Plugin 'tpope/vim-rhubarb'
 Plugin 'scrooloose/syntastic'
 
 " Themes
-Plugin 'raphamorim/lucario'
-
+"Plugin 'raphamorim/lucario'
+"Plugin 'nanotech/jellybeans.vim'
+Plugin 'tomasr/molokai'
 
 " Airline and associated plugins
 Plugin 'vim-airline/vim-airline'
@@ -62,4 +65,7 @@ inoremap jk <ESC>
 filetype plugin indent on
 syntax enable
 set number
-colorscheme lucario
+" colorscheme jellybeans.vim
+colors molokai
+let g:airline_theme='molokai'
+let g:rehash256 = 1
