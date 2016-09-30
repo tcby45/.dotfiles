@@ -24,6 +24,7 @@ Plugin 'tomasr/molokai'
 " Airline and associated plugins
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'airblade/vim-gitgutter'
 
 " Others
 Plugin 'rust-lang/rust.vim'
