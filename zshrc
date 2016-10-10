@@ -113,7 +113,9 @@ if ! zgen saved; then
 	zgen load zsh-users/zsh-syntax-highlighting
 
 	# theme(s)
-	zgen oh-my-zsh themes/half-life
+	#zgen oh-my-zsh themes/half-life
+	#zgen load subnixr/minimal
+	zgen load yous/lime
 
 	# save all to init script
 	zgen save
