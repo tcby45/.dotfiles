@@ -140,9 +140,11 @@ alias betty='/home/ubuntu/betty/main.rb'
 # Add support for nvbn/thefuck
 eval "$(thefuck --alias)"
 
-# Java home
-export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"
-export PATH="$JAVA_HOME/bin:$PATH"
+# # Java home
+# export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"
+# export PATH="$JAVA_HOME/bin:$PATH"
 
+# For seejohnrun/haste-client, sets up my personal haste
+alias haste="HASTE_SERVER=https://haste.tcby45.xyz haste"
 # Gets rid of pain-in-the-butt .zcompdumps
 #rm -r .zcompdump*
