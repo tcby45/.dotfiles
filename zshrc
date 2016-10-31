@@ -88,6 +88,7 @@ alias aui="sudo apt-get update; sudo apt-get upgrade; sudo apt-get dist-upgrade"
 #alias agi="sudo apt-get install" # obsoleted by debian plugin
 alias kb="keybase"
 alias gpg="gpg2"
+alias cls="clear"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 

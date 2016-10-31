@@ -22,6 +22,9 @@ Plugin 'scrooloose/syntastic'
 "Plugin 'nanotech/jellybeans.vim'
 Plugin 'tomasr/molokai'
 
+" NERD plugins
+Plugin 'scrooloose/nerdtree'
+
 " Airline and associated plugins
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
