@@ -24,6 +24,7 @@ Plugin 'tomasr/molokai'
 
 " NERD plugins
 Plugin 'scrooloose/nerdtree'
+Plugin 'commentToggle'
 
 " Airline and associated plugins
 Plugin 'vim-airline/vim-airline'
@@ -35,6 +36,7 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'vimwiki/vimwiki'
 Plugin 'vim-scripts/Conque-Shell'
 Plugin 'editorconfig/editorconfig-vim'
+Plugin 'valloric/youcompleteme'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -69,6 +71,7 @@ highlight link SyntasticStyleWarningSign SignColumn
 inoremap jk <ESC>
 
 filetype plugin indent on
+filetype plugin on
 syntax enable
 set number
 " colorscheme jellybeans.vim

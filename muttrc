@@ -7,8 +7,8 @@ set from="me@tcby45.xyz"
 set realname="Julian Anderson"
 
 set folder=~/Mail
-set mbox_type=mbox
-set spoolfile=~/mbox
+set mbox_type=maildir
+set spoolfile=~/Mail
 set move=yes
 set keep_flagged=yes
 set mbox=+read_inbox
