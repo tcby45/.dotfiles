@@ -148,5 +148,8 @@ eval "$(thefuck --alias)"
 
 # For seejohnrun/haste-client, sets up my personal haste
 alias haste="HASTE_SERVER=https://haste.tcby45.xyz haste"
+# For a complete refresh of rc files
+alias shrefresh="zgen update; git -C ~/.dotfiles pull; vim +PluginInstall +qall; vim +PluginUpdate"
+
 # Gets rid of pain-in-the-butt .zcompdumps
 #rm -r .zcompdump*
