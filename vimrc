@@ -69,6 +69,10 @@ highlight link SyntasticStyleWarningSign SignColumn
 
 " Keyboard mappings
 inoremap jk <ESC>
+let mapleader=","
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
+nnoremap ; :
 
 filetype plugin indent on
 filetype plugin on
