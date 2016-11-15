@@ -15,7 +15,7 @@ Plugin 'tpope/vim-rhubarb'
 Plugin 'tpope/vim-surround'
 
 " Syntastic
-Plugin 'scrooloose/syntastic'
+Plugin 'vim-syntastic/syntastic'
 
 " Themes
 "Plugin 'raphamorim/lucario'
