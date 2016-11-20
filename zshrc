@@ -107,6 +107,7 @@ if ! zgen saved; then
 	zgen oh-my-zsh plugins/brew
 	zgen oh-my-zsh plugins/emoji
 	zgen oh-my-zsh plugins/common-aliases
+	zgen oh-my-zsh plugins/systemd
 	if [[ -f /etc/lsb-release ]] then
 		zgen oh-my-zsh plugins/debian
 	fi
