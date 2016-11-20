@@ -106,12 +106,16 @@ if ! zgen saved; then
 	zgen oh-my-zsh plugins/sudo
 	zgen oh-my-zsh plugins/brew
 	zgen oh-my-zsh plugins/emoji
+	zgen oh-my-zsh plugins/common-aliases
 	if [[ -f /etc/lsb-release ]] then
 		zgen oh-my-zsh plugins/debian
 	fi
 	if [[ -f /etc/arch-release ]] then
 		zgen oh-my-zsh plugins/archlinux
 	fi
+	if [[ $(uname) == "Darwin" ]] then
+		zgen oh-my-zsh plugins/osx
+	fi	
 	zgen load zsh-users/zsh-syntax-highlighting
 
 	# theme(s)
@@ -153,3 +157,5 @@ alias shrefresh="zgen update; git -C ~/.dotfiles pull; vim +PluginInstall +qall;
 
 # Gets rid of pain-in-the-butt .zcompdumps
 #rm -r .zcompdump*
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

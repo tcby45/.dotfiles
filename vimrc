@@ -73,6 +73,7 @@ let mapleader=","
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 nnoremap ; :
+set backspace=indent,eol,start
 
 filetype plugin indent on
 filetype plugin on
