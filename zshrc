@@ -53,7 +53,7 @@ plugins=(git)
 
 # User configuration
 
-  export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$PATH"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 export EDITOR="vim"
 
@@ -116,7 +116,7 @@ if ! zgen saved; then
 	fi
 	if [[ $(uname) == "Darwin" ]] then
 		zgen oh-my-zsh plugins/osx
-	fi	
+	fi
 	zgen load zsh-users/zsh-syntax-highlighting
 
 	# theme(s)
@@ -134,7 +134,7 @@ export MANPATH="/home/ubuntu/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="/home/ubuntu/.linuxbrew/share/info:$INFOPATH"
 ### Bashhub.com Installation
 if [ -f ~/.bashhub/bashhub.zsh ]; then
-    source ~/.bashhub/bashhub.zsh
+	source ~/.bashhub/bashhub.zsh
 fi
 
 # Golang support
