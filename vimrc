@@ -87,3 +87,4 @@ let g:rehash256 = 1
 
 " For YCM
 let g:ycm_log_level = 'info'
+let g:ycm_keep_logfiles = 0
