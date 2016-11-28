@@ -84,3 +84,6 @@ set number
 colors molokai
 let g:airline_theme='molokai'
 let g:rehash256 = 1
+
+" For YCM
+let g:ycm_log_level = 'info'
