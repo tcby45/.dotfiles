@@ -36,7 +36,6 @@ Plugin 'rust-lang/rust.vim'
 Plugin 'vimwiki/vimwiki'
 Plugin 'vim-scripts/Conque-Shell'
 Plugin 'editorconfig/editorconfig-vim'
-Plugin 'valloric/youcompleteme'
 Plugin 'ntpeters/vim-better-whitespace'
 
 " All of your Plugins must be added before the following line
