@@ -108,7 +108,7 @@ if ! zgen saved; then
 	zgen oh-my-zsh plugins/emoji
 	zgen oh-my-zsh plugins/common-aliases
 	zgen oh-my-zsh plugins/systemd
-	if [[ -f /etc/lsb-release ]] then
+	if [[ -f /etc/lsb-release ]] || [[ -f /etc/os-release ]] then
 		zgen oh-my-zsh plugins/debian
 	fi
 	if [[ -f /etc/arch-release ]] then
