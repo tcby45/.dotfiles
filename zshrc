@@ -160,3 +160,6 @@ alias shrefresh="zgen update; git -C ~/.dotfiles pull; vim +PluginInstall +qall;
 #rm -r .zcompdump*
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+export DEVKITPRO=/opt/devkitpro
+export DEVKITARM=/opt/devkitpro/devkitARM
+export PATH="$PATH:/opt/devkitpro/devkitARM/bin"
