@@ -164,3 +164,5 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export DEVKITPRO="$HOME/devkitPro"
 export DEVKITARM="$DEVKITPRO/devkitARM"
 export PATH="$PATH:/opt/devkitpro/devkitARM/bin"
+
+export PATH="$PATH:$HOME/.gnupg"

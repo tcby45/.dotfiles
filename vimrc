@@ -13,6 +13,8 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rhubarb'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-fireplace'
+Plugin 'tpope/vim-salve'
 
 " Syntastic
 Plugin 'vim-syntastic/syntastic'
