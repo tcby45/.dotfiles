@@ -1,0 +1,11 @@
+[user]
+        name = Julian Anderson
+        email = techieboy45@gmail.com
+	signingkey = D380D9C4FB8C1E90
+[push]
+        default = simple
+[alias]
+        jedi = push --force
+        goofed = reset --hard origin/master
+[commit]
+	gpgsign = true
