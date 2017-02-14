@@ -17,7 +17,8 @@ Plugin 'tpope/vim-fireplace'
 Plugin 'tpope/vim-salve'
 
 " Syntastic
-Plugin 'vim-syntastic/syntastic'
+" Plugin 'vim-syntastic/syntastic'
+Plugin 'w0rp/ale'
 
 " Themes
 "Plugin 'raphamorim/lucario'
@@ -72,7 +73,7 @@ highlight link SyntasticStyleWarningSign SignColumn
 
 " Keyboard mappings
 inoremap jk <ESC>
-let mapleader=","
+let mapleader=','
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 nnoremap ; :
