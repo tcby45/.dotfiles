@@ -90,8 +90,6 @@ alias kb="keybase"
 alias gpg="gpg2"
 alias cls="clear"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
 # plugin time
@@ -102,7 +100,6 @@ if ! zgen saved; then
 
 	# plugins
 	zgen oh-my-zsh plugins/git
-	zgen oh-my-zsh plugins/rvm
 	zgen oh-my-zsh plugins/sudo
 	zgen oh-my-zsh plugins/brew
 	zgen oh-my-zsh plugins/emoji
