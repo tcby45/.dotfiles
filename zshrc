@@ -163,3 +163,4 @@ export DEVKITARM="$DEVKITPRO/devkitARM"
 export PATH="$PATH:/opt/devkitpro/devkitARM/bin"
 
 export PATH="$PATH:$HOME/.gnupg"
+export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
