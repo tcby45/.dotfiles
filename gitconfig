@@ -9,3 +9,5 @@
         goofed = reset --hard origin/master
 [commit]
 	gpgsign = true
+[gpg]
+	program = gpg2
