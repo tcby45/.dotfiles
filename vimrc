@@ -42,6 +42,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'venantius/vim-eastwood'
 Plugin 'dodie/vim-disapprove-deep-indentation'
+Plugin 'chr4/sslsecure.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
