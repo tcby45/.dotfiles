@@ -89,4 +89,4 @@ set number
 colors molokai
 let g:airline_theme='molokai'
 let g:rehash256 = 1
-let g:gitgutter_git_executable = '/home/ubuntu/.linuxbrew/bin/git'
+let g:gitgutter_git_executable = '$HOME/.linuxbrew/bin/git'
