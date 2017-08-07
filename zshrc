@@ -161,3 +161,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 export PATH="$PATH:$HOME/.gnupg"
 export PATH="/home/ubuntu/.linuxbrew/bin:$PATH"
+export PATH="/home/ubuntu/.linuxbrew/sbin:$PATH"
