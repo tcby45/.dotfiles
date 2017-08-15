@@ -94,5 +94,5 @@ if system('uname -s') == "Darwin\n"
 	let g:gitgutter_git_executable = '/replace/this/path/later'
 else
 	" Ubuntu (at least on EC2)
-	let g:gitgutter_git_executable = '/home/ubuntu/.linuxbrew/bin/git'
+	let g:gitgutter_git_executable = '/home/linuxbrew/.linuxbrew/bin/git'
 endif
