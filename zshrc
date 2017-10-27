@@ -161,3 +161,4 @@ export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export MANPATH="/home/linuxbrew/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="/home/linuxbrew/.linuxbrew/share/info:$INFOPATH"
 export PATH="/home/linuxbrew/.linuxbrew/opt/python/libexec/bin:$PATH"
+export PATH=$PATH:/home/linuxbrew/.linuxbrew/opt/go/libexec/bin
