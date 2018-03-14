@@ -91,7 +91,7 @@ let g:airline_theme='molokai'
 let g:rehash256 = 1
 if system('uname -s') == "Darwin\n"
 	" macOS
-	let g:gitgutter_git_executable = '/replace/this/path/later'
+	let g:gitgutter_git_executable = '/usr/local/bin/git'
 else
 	" Ubuntu (at least on EC2)
 	let g:gitgutter_git_executable = '/home/linuxbrew/.linuxbrew/bin/git'
