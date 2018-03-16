@@ -16,9 +16,9 @@ git clone https://github.com/tarjoilija/zgen.git ~/.zgen
 ## Installation
 Grab the repo:
 ```sh
-git clone git@github.com:tcby45/dotfiles.git ~/.dotfiles # Make sure you have an SSH key added to your account!
+git clone git@github.com:julian45/dotfiles.git ~/.dotfiles # Make sure you have an SSH key added to your account!
 # or
-hub clone tcby45/dotfiles ~/.dotfiles # if you use hub
+hub clone julian45/dotfiles ~/.dotfiles # if you use hub
 ```
 Install [rcm](https://github.com/thoughtbot/rcm) using [Homebrew](http://brew.sh/) or [Linuxbrew](http://linuxbrew.sh/) (of course, you could also build from source):
 ```
