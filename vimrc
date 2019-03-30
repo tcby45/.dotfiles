@@ -16,9 +16,9 @@ Plugin 'tpope/vim-surround'
 " Plugin 'tpope/vim-fireplace'
 " Plugin 'tpope/vim-salve'
 
-" Syntastic
+" Linting
 " Plugin 'vim-syntastic/syntastic'
-Plugin 'w0rp/ale'
+" Plugin 'w0rp/ale'
 
 " Themes
 "Plugin 'raphamorim/lucario'
@@ -93,6 +93,6 @@ if system('uname -s') == "Darwin\n"
 	" macOS
 	let g:gitgutter_git_executable = '/usr/local/bin/git'
 else
-	" Ubuntu (at least on EC2)
+	" Ubuntu
 	let g:gitgutter_git_executable = '/home/linuxbrew/.linuxbrew/bin/git'
 endif
