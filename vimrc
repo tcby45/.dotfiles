@@ -94,5 +94,5 @@ if system('uname -s') == "Darwin\n"
 	let g:gitgutter_git_executable = '/usr/local/bin/git'
 else
 	" Ubuntu
-	let g:gitgutter_git_executable = '/home/linuxbrew/.linuxbrew/bin/git'
+	let g:gitgutter_git_executable = '/usr/bin/git'
 endif
