@@ -1,13 +1,8 @@
 [user]
         name = Julian Anderson
         email = julian.anderson6207@gmail.com
-	signingkey = 6B4B2E60
 [push]
         default = simple
 [alias]
         jedi = push --force
         goofed = reset --hard origin/master
-[commit]
-	gpgsign = true
-[gpg]
-	program = gpg2

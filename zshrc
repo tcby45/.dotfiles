@@ -138,10 +138,6 @@ fi
 export GOPATH=$HOME/.linuxbrew/opt/go/libexec/bin/bin
 export PATH=$PATH:$GOPATH
 
-
-# Add support for nvbn/thefuck
-eval "$(thefuck --alias)"
-
 # # Java home
 # export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"
 # export PATH="$JAVA_HOME/bin:$PATH"
