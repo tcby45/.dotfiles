@@ -21,9 +21,6 @@ Plugin 'tpope/vim-surround'
 " Plugin 'w0rp/ale'
 
 " Themes
-"Plugin 'raphamorim/lucario'
-"Plugin 'nanotech/jellybeans.vim'
-Plugin 'tomasr/molokai'
 Plugin 'altercation/vim-colors-solarized'
 
 " NERD plugins
@@ -86,11 +83,8 @@ filetype plugin indent on
 filetype plugin on
 syntax enable
 set number
-" colorscheme jellybeans.vim
-" colors molokai
 set background=dark
 colorscheme solarized
-" let g:airline_theme='molokai'
 let g:airline_theme='solarized'
 let g:airline_solarized_bg='dark'
 " let g:rehash256 = 1
