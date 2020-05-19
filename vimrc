@@ -21,9 +21,9 @@ Plugin 'tpope/vim-surround'
 " Plugin 'w0rp/ale'
 
 " Themes
-"Plugin 'raphamorim/lucario'
-"Plugin 'nanotech/jellybeans.vim'
-Plugin 'tomasr/molokai'
+" Plugin 'raphamorim/lucario'
+Plugin 'nanotech/jellybeans.vim'
+" Plugin 'tomasr/molokai'
 
 " NERD plugins
 Plugin 'scrooloose/nerdtree'
@@ -85,10 +85,10 @@ filetype plugin indent on
 filetype plugin on
 syntax enable
 set number
-" colorscheme jellybeans.vim
-colors molokai
-let g:airline_theme='molokai'
-let g:rehash256 = 1
+colorscheme jellybeans.vim
+" colors molokai
+" let g:airline_theme='molokai'
+" let g:rehash256 = 1
 if system('uname -s') == "Darwin\n"
 	" macOS
 	let g:gitgutter_git_executable = '/usr/local/bin/git'
