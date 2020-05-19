@@ -1,7 +1,7 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-set t_Co=256
+" set t_Co=256
 set laststatus=2 " Make the airline show up everywhere
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -24,6 +24,7 @@ Plugin 'tpope/vim-surround'
 "Plugin 'raphamorim/lucario'
 "Plugin 'nanotech/jellybeans.vim'
 Plugin 'tomasr/molokai'
+Plugin 'altercation/vim-colors-solarized'
 
 " NERD plugins
 Plugin 'scrooloose/nerdtree'
@@ -86,9 +87,13 @@ filetype plugin on
 syntax enable
 set number
 " colorscheme jellybeans.vim
-colors molokai
-let g:airline_theme='molokai'
-let g:rehash256 = 1
+" colors molokai
+set background=dark
+colorscheme solarized
+" let g:airline_theme='molokai'
+let g:airline_theme='solarized'
+let g:airline_solarized_bg='dark'
+" let g:rehash256 = 1
 if system('uname -s') == "Darwin\n"
 	" macOS
 	let g:gitgutter_git_executable = '/usr/local/bin/git'
