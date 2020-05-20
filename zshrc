@@ -5,7 +5,7 @@ export ZSH=$HOME/.zgen/robbyrussell/oh-my-zsh-master
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-#ZSH_THEME="half-life"
+# ZSH_THEME="pi"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -118,8 +118,9 @@ if ! zgen saved; then
 
 	# theme(s)
 	#zgen oh-my-zsh themes/half-life
-	#zgen load subnixr/minimal
-	zgen load yous/lime
+	zgen load subnixr/minimal
+	# zgen load yous/lime
+	# zgen load tobyjamesthomas/pi
 
 	# save all to init script
 	zgen save
@@ -160,3 +161,6 @@ export PATH="/home/linuxbrew/.linuxbrew/opt/python/libexec/bin:$PATH"
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/opt/go/libexec/bin
 export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
 export PATH"=/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/current/bin:$PATH"
+
+# config for subnixr/minimal
+MNML_RPROMPT=('mnml_cwd 0' mnml_git)
