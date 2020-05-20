@@ -161,3 +161,6 @@ export PATH="/home/linuxbrew/.linuxbrew/opt/python/libexec/bin:$PATH"
 export PATH=$PATH:/home/linuxbrew/.linuxbrew/opt/go/libexec/bin
 export PATH="/home/linuxbrew/.linuxbrew/sbin:$PATH"
 export PATH"=/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portable-ruby/current/bin:$PATH"
+
+# theme config
+MNML_RPROMPT=('mnml_cwd 0' mnml_git)
