@@ -43,31 +43,11 @@ if ! zgen saved; then
 	zgen save
 fi
 
-# Add linuxbrew back to the PATH, and have man and info paths
-export PATH=$PATH:$HOME/.linuxbrew/bin
-export MANPATH="/home/ubuntu/.linuxbrew/share/man:$MANPATH"
-export INFOPATH="/home/ubuntu/.linuxbrew/share/info:$INFOPATH"
-### Bashhub.com Installation
-if [ -f ~/.bashhub/bashhub.zsh ]; then
-	source ~/.bashhub/bashhub.zsh
-fi
-
-# Golang support
-export GOPATH=$HOME/.linuxbrew/opt/go/libexec/bin/bin
-export PATH=$PATH:$GOPATH
-
-# # Java home
-# export JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"
-# export PATH="$JAVA_HOME/bin:$PATH"
-
 # For a complete refresh of rc files
 alias shrefresh="zgen update; git -C ~/.dotfiles pull; vim +PluginInstall +qall; vim +PluginUpdate"
 
-# Gets rid of pain-in-the-butt .zcompdumps
-#rm -r .zcompdump*
-
+# if using iTerm2 on mac
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
 
 export PATH="$PATH:$HOME/.gnupg"
 
