@@ -33,11 +33,8 @@ if ! zgen saved; then
 	fi
 	zgen load zsh-users/zsh-syntax-highlighting
 
-	# theme(s)
-	#zgen oh-my-zsh themes/half-life
+	# theme
 	zgen load subnixr/minimal
-	# zgen load yous/lime
-	# zgen load tobyjamesthomas/pi
 
 	# save all to init script
 	zgen save
