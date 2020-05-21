@@ -81,3 +81,8 @@ export PATH"=/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/vendor/portabl
 
 # theme config
 MNML_RPROMPT=('mnml_cwd 0' mnml_git)
+
+# If using Microsoft Terminal, default to ~ rather than /mnt/c/Users/[username]
+if [[ "$(uname -a)" == *"Microsoft"* ]]; then
+	cd ~
+fi
