@@ -14,7 +14,6 @@ if ! zgen saved; then
 	echo "Creating a zgen save"
 
 	zgen load zsh-users/zsh-syntax-highlighting
-	zgen load zsh-users/zsh-autosuggestions
 
 	zgen oh-my-zsh
 
