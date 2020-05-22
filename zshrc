@@ -13,8 +13,6 @@ source "${HOME}/.zgen/zgen.zsh"
 if ! zgen saved; then
 	echo "Creating a zgen save"
 
-	zgen load zsh-users/zsh-syntax-highlighting
-
 	zgen oh-my-zsh
 
 	# plugins
@@ -33,6 +31,7 @@ if ! zgen saved; then
 	if [[ $(uname) == "Darwin" ]] then
 		zgen oh-my-zsh plugins/osx
 	fi
+	zgen load zsh-users/zsh-syntax-highlighting
 
 	# theme
 	zgen load subnixr/minimal
