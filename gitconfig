@@ -6,3 +6,5 @@
 [alias]
         jedi = push --force
         goofed = reset --hard origin/master
+[pull]
+	rebase = false
