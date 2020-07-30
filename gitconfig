@@ -8,3 +8,5 @@
         goofed = reset --hard origin/master
 [pull]
 	rebase = false
+[init]
+	defaultBranch = main
