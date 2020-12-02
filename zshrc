@@ -63,3 +63,15 @@ MNML_RPROMPT=('mnml_cwd 0' mnml_git)
 if [[ "$(uname -a)" == *"Microsoft"* ]]; then
 	cd ~
 fi
+
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+## fzf sourcing
+# setup
+if [[ ! "$PATH" == */home/linuxbrew/.linuxbrew/opt/fzf/bin* ]]; then
+	export PATH="${PATH:+${PATH}:}/home/linuxbrew/.linuxbrew/opt/fzf/bin"
+fi
+# autocompletion
+[[ $- == *i* ]] && source "/home/linuxbrew/.linuxbrew/opt/fzf/shell/completion.zsh" 2> /dev/null
+# keybindings
+source "/home/linuxbrew/.linuxbrew/opt/fzf/shell/key-bindings.zsh"
