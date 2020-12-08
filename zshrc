@@ -9,6 +9,16 @@ alias cls="clear"
 
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
+
+# before oh-my-zsh runs (and thus runs compinit), enable homebrew completions
+# see https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh
+if type brew &>/dev/null; then
+	FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+	autoload -Uz compinit
+	compinit
+fi
+
 # plugin time
 if ! zgen saved; then
 	echo "Creating a zgen save"
