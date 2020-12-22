@@ -10,7 +10,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 " Stuff from tpope
 Plugin 'tpope/vim-commentary'
-" Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-rhubarb'
 Plugin 'tpope/vim-surround'
 " Plugin 'tpope/vim-fireplace'
